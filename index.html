@@ -1,0 +1,888 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="freehtml5.co" />
+
+    <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap//bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Font Awesome CSS -->
+    <link href="css/bootstrap/font-awesome.min.css" rel="stylesheet" media="screen">
+
+
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        // 모달팝업
+        $(function() {
+            $('.work').click(function() {
+                $('#pop_up').show();
+
+            });
+            $('#pop_up .btn').click(function() {
+                $('#pop_up').hide();
+            });
+
+
+
+
+            $('.modal_select a').each(function() {
+                $(this).click(function() {
+                    var a_href = $(this).attr('href');
+                    $('.pop').hide();
+                    $(a_href).show();
+
+                    $('.btn').click(function() {
+                        $(a_href).hide();
+
+                    });
+
+                });
+
+            });
+
+
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="fh5co-loader"></div>
+
+    <div id="page">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo.png" alt="Lattes theme logo"></a>
+				</div> -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#fh5co-features">WhatCanIdo</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#fh5co-skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#fh5co-work">Visual</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#fh5co-blog">Branding</a>
+                        </li>
+                      
+                        <li>
+                            <a class="page-scroll" href="#fh5co-started">Epilogue</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="display-t js-fullheight">
+                            <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                                <div class="profile-thumb" style="background: url(images/typinghand.jpg);"></div>
+                                <h1><span>NICE TO ME YOU</span></h1>
+                                <h3><span>Web Developer / Photographer</span></h3>
+                                <p>
+                                <ul class="fh5co-social-icons">
+                                    <li><a href="#"><i class="icon-twitter2"></i></a></li>
+                                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                                    <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                                    <li><a href="#"><i class="icon-dribbble2"></i></a></li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title wow fadeInUp">About Me</h2>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-md-push-8">
+                        <div class="biography">
+                            <div class="myphoto">
+                                <img src="assets/images/myphoto.jpg" alt="">
+                            </div>
+                            <ul>
+                                <li><strong>Name:</strong> 오 희영</li>
+                                <li><strong>Date of birth:</strong> 1993.04.21</li>
+                                <li><strong>Address:</strong> 부산시 동구 좌천동</li>
+
+                                <li><strong>Phone:</strong> 010-4308-4663</li>
+                                <li><strong>Email:</strong> dhgmldud1054@naver.com</li>
+                            </ul>
+                        </div>
+                    </div> <!-- col-md-4 -->
+
+                    <div class="col-md-8 col-md-pull-4">
+                        <div class="short-info wow fadeInUp">
+                            <h3>Objective</h3>
+                            <p>반갑습니다.
+                                저는 피아노에서 웹디자인으로 직종을 전향한 오희영입니다.<br>
+                                저는 전공에서 느껴보지 못한 어려움 속 즐거움을, 웹디자인에서 느꼈습니다.
+                                꿈속에서 코딩을 하고, 깨어있을땐 길거리 전단지 하나, 포스터 하나, 로고 하나하나의 디자인에
+                                눈길이 가는 저는 웹디자인이 즐겁습니다.<br>
+                                비록 전공도 아니고 부족할 수 있습니다.
+                                하지만 피아노에서 배운 세심함, 스스로의 한계를 뛰어넘는 노력과 끈기만큼은<br>
+                                자신있게 보여드릴 수 있다 확신합니다.<br>
+                                앞으로 끊임없이 발전하며 많은 일을 이루겠습니다.
+                            </p>
+                        </div>
+
+                        <div class="short-info wow fadeInUp">
+                            <h3>MAJOR</h3>
+
+                            <ul class="list-check">
+                                <li>2020.08 ~ 2021.01
+                                    부산IT교육센터 반응형퍼블리싱＆웹디자인 교육 과정 수료</li>
+                                <li>2018.03
+                                    고신대학교 기악과(피아노) 졸업</li>
+                                <li>2012.03
+                                    부산 데레사 여자 고등학교졸업</li>
+
+                            </ul>
+                        </div>
+
+                        <!--
+            <div class="my-signature">
+              <img src="assets/images/sign.png" alt="">
+            </div>
+
+            <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</a>
+            </div>-->
+                    </div>
+
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section><!-- End About Section -->
+
+
+
+        <div id="fh5co-features" class="animate-box">
+            <div class="container">
+                <div class="services-padding">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>What Can I Do?</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center col1">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-paintbrush"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Web Publisher</h3>
+                                    <p>(반응형 웹)웹표준·웹접근성 구현</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center col1">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-briefcase"></i>
+                                </span>
+                                <div class="feature-copy col1">
+                                    <h3>Branding Design</h3>
+                                    <p>CI,BI 컨셉 가이드, 리플렛 홍보물</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 text-center col1">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-search"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>SNS Design</h3>
+                                    <p>소셜 온라인 SNS 카드뉴스</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-4 text-center col1">
+
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-bargraph"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Shoppingmall Design</h3>
+                                    <p>카페 24 쇼핑몰, 상품상세페이지</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 text-center col1">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-genius"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>UI/UX Design</h3>
+                                    <p>UX 디자인 프로세스</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 text-center col1">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-chat"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Communication</h3>
+                                    <p>원활한 의사 소통</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-skills" class="animate-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Skills And Personality</h2>
+                    </div>
+                </div>
+                <div class="row row-pb-md">
+
+                    <!-- backup
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
+				</div>
+				
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
+				</div> -->
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>Photoshop</strong>90%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>Illustrator</strong>90%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="95"><span><strong>HTML</strong>95%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>CSS</strong>90%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="75"><span><strong>jQuery</strong>75%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>Sence</strong>90%</span></div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">책임감</span><span class="value-right">90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">인내심</span><span class="value-right">90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">배려심</span><span class="value-right">95%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">사교성</span><span class="value-right">100%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">창의력</span><span class="value-right">80%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">협력적</span><span class="value-right">90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">노력</span><span class="value-right">90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">활동적</span><span class="value-right">95%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="fh5co-work" class="fh5co-bg-dark">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Visual</h2>
+                    </div>
+                </div>
+                <div class="row modal_select">
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up1" class="work" style="background-image: url(images/banner1.jpg);">
+                            <div class="desc">
+                                <h3>에뛰드 하우스</h3>
+                                <span>메인레이아웃</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up2" class="work" style="background-image: url(images/banner2.jpg);">
+                            <div class="desc">
+                                <h3>프롬비기닝</h3>
+                                <span>메인레이아웃</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up3" class="work" style="background-image: url(images/banner3.jpg);">
+                            <div class="desc">
+                                <h3>베스킨라빈스31</h3>
+                                <span>배너디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up4" class="work" style="background-image: url(images/banner4.jpg);">
+                            <div class="desc">
+                                <h3>이디야</h3>
+                                <span>배너디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up5" class="work" style="background-image: url(images/banner5.jpg)">
+                            <div class="desc">
+                                <h3>봄처럼 선물이 왔다</h3>
+                                <span>배너디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up6" class="work" style="background-image: url(images/layout1.jpg);">
+                            <div class="desc">
+                                <h3>오설록크리스마스</h3>
+                                <span>배너디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up7" class="work" style="background-image: url(images/layout2.jpg);">
+                            <div class="desc">
+                                <h3>오설록초콜릿</h3>
+                                <span>배너디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up8" class="work" style="background-image: url(images/layout3.jpg);">
+                            <div class="desc">
+                                <h3>아로니아효능</h3>
+                                <span>카드뉴스</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up9" class="work" style="background-image: url(images/layout4.jpg);">
+                            <div class="desc">
+                                <h3>APEX리플렛</h3>
+                                <span>리플렛디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#pop_up10" class="work" style="background-image: url(images/layout5.jpg);">
+                            <div class="desc">
+                                <h3>cafe DOPIO</h3>
+                                <span>전단지디자인</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+            <!-- visual popup 창 -->
+                    <div id="pop_up1" class="pop set1">
+        <div class="img">
+            <img src="images/banner1-1.jpg">
+            <div class="text1">
+                <p>Banner Design</p>
+                 <h3>이디야</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color1.png"></li>
+                 </ul>
+                  <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="pop_up2" class="pop set1">
+        <div class="img">
+            <img src="images/banner2-1.jpg">
+            <div class="text1">
+                <p>Banner Design</p>
+                 <h3>베스킨라빈스31</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color2.png"></li>
+                 </ul>
+                  <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="pop_up3" class="pop set1">
+        <div class="img">
+            <img src="images/banner3-1.jpg">
+            <div class="text1">
+                <p>Banner Design</p>
+                 <h3>봄처럼 선물이 왔다</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color3.png"></li>
+                 </ul>
+                  <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="pop_up4" class="pop set1">
+        <div class="img">
+            <img src="images/banner4-1.jpg">
+             <div class="text1">
+                <p>Banner Design</p>
+                 <h3>오설록 크리스마스</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color4.png"></li>
+                 </ul>
+                  <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+        </div>
+    </div>
+        <div id="pop_up5" class="pop set1">
+        <div class="img">
+           <img src="images/banner5-1.jpg">
+            <div class="text1">
+                <p>Banner Design</p>
+                 <h3>오설록 초콜릿</h3>                 
+                <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color5.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+        </div>
+    </div>
+              
+              
+               <div id="pop_up6" class="pop set2">
+        <div class="img">
+            <img src="images/layout1-1.png">
+            <div class="text2">
+                <p>Layout Design</p>
+                 <h3>에뛰드 하우스</h3>                 
+               <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :</li>
+                     <li><img src="images/color6.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="pop_up7" class="pop set2">
+        <div class="img">
+            <img src="images/layout2-1.jpg">
+            <div class="text2">
+                <p>Layout Design</p>
+                 <h3>프롬비기닝</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color7.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="pop_up8" class="pop set2">
+        <div class="img">
+            <img src="images/layout3-1.jpg">
+            <div class="text2">
+                <p>Card News</p>
+                 <h3>아로니아 효능</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color8.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="pop_up9" class="pop set2">
+        <div class="img">
+            <img src="images/layout4-1.jpg">
+            <div class="text2">
+                <p>Leaflet Design</p>
+                 <h3>APEXT 리플렛</h3>                 
+                   <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color9.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="pop_up10" class="pop set1">
+        <div class="img">
+            <img src="images/layout5-1.png">
+            <div class="text1">
+                <p>Print flyers Design</p>
+                 <h3>cafe도피오</h3>                 
+                 <ul>
+                     <li>size : 1921*620px</li>
+                     <li>concept : ‘친절과 미소’ 문구에 어울리도록 고객님께 커피를 건내는 미소 띈 직원의 사진을 사용.
+</li>                     
+                     <li>color :<img src="images/color10.png"></li>
+                 </ul>
+                 <div class="btn">               
+                <button class="xbtn">X</button>
+            </div>
+            </div>
+          
+        </div>
+    </div>
+                
+
+            </div>
+        </div>
+
+        <div id="fh5co-blog">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Branding Design</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/dunkin_pc.png);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Nov. 10th 2020</span>
+                                <p>#PROJECT1</p>
+                                <h3><a href="#">DUNKIN DONUT</a></h3>
+                                
+
+       <ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/hug_pc.png);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Set. 11th 2020</span>
+                                <p>#PROJECT2</p>
+                                <h3><a href="#">HUG주택도시보증공사</a></h3>
+                                
+
+                               <ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/cafe24_pc.png);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Nov. 30th 2020</span>
+                                <p>#CAFE24 SHOPPING MALL</p>
+
+                                <h3><a href="#">DEAR MAN</a></h3>
+                                
+                                <ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/blog_pc.png);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Set. 15th 2020</span>
+                                <p>#NAVER BLOG</p>
+                                <h3><a href="#">NAVER BLOG</a></h3>
+
+                               <ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+   
+
+
+        <div id="fh5co-started" class="fh5co-bg-dark">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Hire Me!</h2>
+                        <p>새로운것 에 대한 배움과 어려움을 즐길 줄 아는 긍정적인 마인드와<br>
+                            디자인에 대한 흥미와 탐구, 원활한 커뮤니케이션으로<br>
+                            발전된 모습을 보여드리는 디자이너가 되겠습니다.
+                        </p>
+                        <p><a href="#"  class="btn btn-default btn-lg">Contact Me</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <p id="back-top">
+        <a href="#top"><i class="fa fa-angle-up"></i></a>
+    </p>
+    <div id="fh5co-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/theme-scripts.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Easy PieChart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+    <script src="js/google_map.js"></script>
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+
+</body></html>
+
