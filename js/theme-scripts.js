@@ -7,6 +7,21 @@ $(window).scroll(function() {
     }
 });
 
+
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 150) {
+        $('.page-scroll').addClass('navbar-shrink');
+    }
+    else {
+        $('.page-scroll').removeClass('navbar-shrink');
+    }
+});
+
+
+
+
+
+
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

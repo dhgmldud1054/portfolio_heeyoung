@@ -1637,15 +1637,14 @@ p {
 
 .lead {
     margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 300;
+      font-size: 7rem;
+    color: #fff;
+   
     line-height: 1.4
 }
 
 @media (min-width:768px) {
-    .lead {
-        font-size: 21px
-    }
+
 }
 
 .small,
@@ -2013,12 +2012,18 @@ pre code {
     .container {
         width: 970px
     }
+    
+    .col-md-pull-4{right: revert !important;}
+    
+    
 }
 
 @media (min-width:1200px) {
     .container {
         width: 1170px
     }
+    
+ 
 }
 
 .container-fluid {
@@ -2032,6 +2037,10 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
 }
+
+
+
+
 
 
 .col-lg-1,
@@ -2547,6 +2556,12 @@ pre code {
     .col-md-9 {
         float: left
     }
+    
+    
+    .col-md-4-b{float: right}
+    
+    
+    
 
     .col-md-12 {
         width: 100%
@@ -2637,10 +2652,28 @@ pre code {
         right: 41.66666667%
     }
 
-    .col-md-pull-4 {
-        right: 33.33333333%
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .col-md-pull-3 {
         right: 25%
     }
@@ -2673,9 +2706,7 @@ pre code {
         left: 75%
     }
 
-    .col-md-push-8 {
-        left: 66.66666667%
-    }
+
 
     .col-md-push-7 {
         left: 58.33333333%
@@ -8338,7 +8369,7 @@ button.close {
 
 
 
-.xbtn{width: 50px; height: 50px; font-size: 40px; font-weight: bold; text-align: center; line-height: 50px; padding: revert !important; position: absolute; top: 0; right: -7%}
+.xbtn{width: 50px; height: 50px; font-size: 25px; font-weight: bold; text-align: center; line-height: 50px; padding: revert !important; position: absolute; top: 0; right: -7%}
 
 
 .col-md-8-a{
@@ -8346,7 +8377,8 @@ button.close {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+        padding-top: 20em;
 }
 
 .align-items-center {

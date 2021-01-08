@@ -21,7 +21,7 @@ body {
 }
 
 h2 {
-    font-family: "Space Mono", Arial, serif !important;
+  font-weight: lighter;
 
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 a {
-    color: #fea7b7;
+    color: #c39acc;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -76,7 +76,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #fea7b7;
+    color: #c39acc;
     outline: none;
     text-decoration: none;
 }
@@ -85,32 +85,20 @@ p {
     margin-bottom: 30px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-figure {
-    color: #000;
-    font-family: "Space Mono", Arial, serif;
-    font-weight: 400;
-    margin: 0 0 20px 0;
-}
 
 ::-webkit-selection {
     color: #fff;
-    background: #fea7b7;
+    background: thistle;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #fea7b7;
+    background: thistle;
 }
 
 ::selection {
     color: #fff;
-    background: #fea7b7;
+    background: thistle;
 }
 
 #fh5co-header,
@@ -272,7 +260,7 @@ figure {
 }
 
 #fh5co-features {
-    background: #fea7b7;
+    background: thistle;
     padding-top: 5em;
     padding-bottom: 7em;
 }
@@ -315,7 +303,7 @@ figure {
     display: table-cell;
     vertical-align: middle;
     height: 100px;
-    color: #fea7b7 !important;
+    color: thistle !important;
 }
 
 #fh5co-features .feature-left .feature-copy {
@@ -353,6 +341,17 @@ figure {
     clear: both;
 }
 
+
+#fh5co-skills{
+     padding: 6em 0;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
     #fh5co-about,
@@ -372,8 +371,8 @@ figure {
 }
 
 .fh5co-bg-dark {
-    background: #2F3C4F;
-    background: #fea7b7;
+   
+    background: thistle;
 }
 
 .fh5co-bg-dark .fh5co-heading h2 {
@@ -438,7 +437,7 @@ figure {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #fea7b7;
+    color: thistle;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -480,7 +479,7 @@ figure {
 }
 
 #fh5co-about .fh5co-social-icons li a:hover {
-    background: #fea7b7;
+    background: thistle;
 }
 
 .fh5co-heading {
@@ -631,7 +630,7 @@ figure {
     top: 40px;
     left: 50%;
     margin-left: -21px;
-    background-color: #fea7b7;
+    background-color: thistle;
     z-index: 100;
     display: table;
     -webkit-border-radius: 50%;
@@ -769,7 +768,7 @@ figure {
 .progress {
     width: 100%;
     float: left;
-    height: 5px;
+    height: 3px;
     box-shadow: none;
 }
 
@@ -936,7 +935,7 @@ figure {
     height: 54px;
     border: none !important;
     background: #fff;
-    color: #fea7b7;
+    color: thistle;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
@@ -1049,7 +1048,7 @@ figure {
 
 
 .webbtn li:nth-child(1) {
-    background-color: #fea7b7;
+    background-color: thistle;
     border-radius: 5px;
     width: 57px;
     height: 30px;
@@ -1063,7 +1062,7 @@ figure {
 
 
 .webbtn li:nth-child(2),.webbtn li:nth-child(3) {
-    background-color: #fea7b7;
+    background-color: thistle;
     border-radius: 5px;
     width: 50px;
     height: 30px;
@@ -1265,7 +1264,7 @@ input[type="text"] {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Space Mono", Arial, serif;
+   
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 30px;
@@ -1294,28 +1293,28 @@ input[type="text"] {
 }
 
 .btn-primary {
-    background: #fea7b7;
+    background: thistle;
     color: #fff;
-    border: 2px solid #fea7b7;
+    border: 2px solid thistle;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background: #fea7b7 !important;
-    border-color: #fea7b7 !important;
+    background: thistle !important;
+    border-color: thistle !important;
 }
 
 .btn-primary.btn-outline {
     background: transparent;
-    color: #fea7b7;
-    border: 2px solid #fea7b7;
+    color: thistle;
+    border: 2px solid thistle;
 }
 
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-    background: #fea7b7;
+    background: thistle;
     color: #fff;
 }
 
@@ -1481,7 +1480,7 @@ input[type="text"] {
 .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #fea7b7;
+    border-color: thistle;
 }
 
 .row-pb-md {
@@ -1540,7 +1539,7 @@ input[type="text"] {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: thistle
 }
 
 .navbar-default .navbar-collapse {
@@ -1548,8 +1547,8 @@ input[type="text"] {
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: thistle;
+    border-color: thistle
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1558,7 +1557,7 @@ input[type="text"] {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136
+    background-color: thistle
 }
 
 .navbar-default .nav li a {
@@ -1566,26 +1565,44 @@ input[type="text"] {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+     color: #fff;
     font-size: 14px
 }
 
+
+.navbar-default .nav li a:hover{
+    color: thistle !important;
+}
+
+
+
+
+    .page-scroll.navbar-shrink{
+        color: #4d4d4d !important;
+     
+        
+    } 
+
+
+
+
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #fed136;
+    color: thistle;
     outline: 0
 }
 
 .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136
+    background-color: thistle
 }
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #fec503
+    background-color: thistle
 }
 
 @media (min-width:768px) {
@@ -1617,6 +1634,12 @@ input[type="text"] {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
     }
+    
+    
+
+    
+    
+    
 }
 
 
@@ -1647,7 +1670,7 @@ input[type="text"] {
 }
 
 #back-top a:hover {
-    background: #fed136;
+    background: thistle;
 }
 
 /* arrow icon (span tag) */
@@ -1833,7 +1856,7 @@ button {
     padding: 6px 12px;
     border: none;
     border-radius: 6px;
-    background: #009688;
+    background: thistle;
     color: white;
 }
 
@@ -1880,7 +1903,7 @@ button {
 
 .pop .img img {
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -1888,18 +1911,21 @@ button {
 
 /* pop set1 */
 .set1 img{width: 100%}
-.text1 h3{font-weight: 700; margin-top: 0; font-size: 33px}
+.text1 h3{font-weight: 500; margin-top: 0; font-size: 33px}
 .text1>ul>li>img {width: 30%;margin: 0 auto;}
 #pop_up10 img{width: 60%;margin: 0 auto;}
 #pop_up10 .text1 img{width:30%}
 
 /* pop set2 */
-.set2 img {width: 42%; float: left}
+.set2 img {width: 47%; float: left}
 .text2 {float: right;
     width: 58%;
     padding: 20px;}
+
+
+
 .text2>ul>li{width: 58%;
-    margin: 0 auto;}
+    margin: 0 auto;padding-top: 1em}
 .text2>ul>li>img {width: 100% !important;}
 .img:after{display: block; content: ""; clear: both}
 #pop_up9 .text2 img{width:86% !important; margin: 0 auto}
@@ -1918,7 +1944,10 @@ button {
 .btn button {
     padding: 6px 12px;
     border: none;
-    border-radius: 6px;
-    background: #009688;
+    
+    background: #c39acc;
     color: white;
 }
+
+
+

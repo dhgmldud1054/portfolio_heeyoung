@@ -27,7 +27,13 @@
     min-height: 400px;
     height: calc(20vh); }
   .site-blocks-cover h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    color: #fff; }
-   
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #eaeaea; 
+      line-height: 150%
+
+}
+
+
+.typed-words{font-weight: 500;
+color: #fff}
