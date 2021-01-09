@@ -765,6 +765,10 @@ p {
     float: right;
 }
 
+
+
+.value-right{display: none}
+
 .progress {
     width: 100%;
     float: left;
