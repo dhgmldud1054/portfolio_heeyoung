@@ -1963,9 +1963,9 @@ button {
 @media (max-width:1723px){
    
     .work{width: 23em;  height: 23em;}
-     .work .desc{width: 23em; height: 23em}
-    
+     .work .desc{width: 23em; height: 23em}    
     .fh5co-blog .blog-bg{height: 557px}
+     
     
    
 }    
@@ -1975,7 +1975,9 @@ button {
 
 
 @media (max-width:1349px){
-    .work{margin-top: 0; margin-bottom: 0}
+    .work{margin-top: 0; margin-bottom: 0;     width: auto;
+    height: auto; background-size: 100%}
+
 }
 
 
