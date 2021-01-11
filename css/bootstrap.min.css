@@ -8389,3 +8389,57 @@ button.close {
 }
 
 
+@media (max-width:973px){
+    
+    #about .col-md-8{margin: 0 auto;
+    left: 0;
+    right: 0;float: none}
+    
+    #about .biography{
+        left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+        float: none
+    }
+        
+}
+
+.modal_select{
+    margin: 0 auto;
+    left: 0;
+    right: 0;}
+.modal_select>.space{display: none}
+
+@media (max-width:1723px){
+    .modal_select .space{display: block; clear: both}
+    .modal_select>div{margin: 0 auto; left: 0; right: 0; width: 70%; margin-bottom: 2em}
+    #fh5co-work .col-md-3{width: 23em; height: 23em}
+    .colright{float: right}    
+    .modal_select{position: relative}   
+    #fh5co-blog>.container{margin: 0}
+     #fh5co-blog .col-md-4{width: 50%}
+    
+    
+}
+    
+    
+   
+@media (max-width:1349px){
+    .modal_select>div{margin-bottom: 0}
+}
+
+@media (max-width:969px){
+    #fh5co-blog .colright, #fh5co-blog .col-md-4{float: none}
+    #fh5co-blog .col-md-4{width: 80%; margin: 0 auto}
+    #fh5co-blog .row{margin-left: revert}
+   
+  
+}
+
+
+@media (max-width: 697px){
+    #fh5co-work .col-md-3{display: contents}
+}
+

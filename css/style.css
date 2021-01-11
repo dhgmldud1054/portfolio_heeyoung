@@ -883,10 +883,13 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    
+    
+    /*
     .work .desc {
         opacity: 1;
         background: rgba(255, 255, 255, 0.6);
-    }
+    } */
 
     .work .desc h3 {
         -webkit-transform: translate3d(0, 0, 0);
@@ -980,7 +983,7 @@ p {
 .fh5co-blog .blog-bg {
     display: block;
     width: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -1640,9 +1643,12 @@ input[type="text"] {
     }
     
     
+}
 
+
+@media (max-width:767px){
     
-    
+    .navbar-default{display: none}
     
 }
 
@@ -1894,14 +1900,14 @@ button {
 
 /*뒷 배경*/
 .pop .img {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     left: 50%;
-    top: 68%;
+    top: 52%;
     transform: translate(-50%, -50%);
     background: white;
     text-align: center;
-    width: auto;
-   
+    width: auto;   
     padding: 20px
 }
 
@@ -1953,5 +1959,23 @@ button {
     color: white;
 }
 
+
+@media (max-width:1723px){
+   
+    .work{width: 23em;  height: 23em;}
+     .work .desc{width: 23em; height: 23em}
+    
+    .fh5co-blog .blog-bg{height: 557px}
+    
+   
+}    
+
+
+
+
+
+@media (max-width:1349px){
+    .work{margin-top: 0; margin-bottom: 0}
+}
 
 
